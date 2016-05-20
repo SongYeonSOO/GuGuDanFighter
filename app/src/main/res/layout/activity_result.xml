@@ -9,4 +9,71 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.estsoft.gugudanfighter.ResultActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="맞춘개수"
+        android:id="@+id/textView11"
+        android:layout_marginTop="81dp"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button9"
+        android:layout_toStartOf="@+id/button9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다시 게임을 시작하시겠습니까?"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/button9"
+        android:textSize="30sp"
+        android:layout_marginTop="109dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/button10"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/button9"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:id="@+id/textView13"
+        android:textSize="30sp"
+        android:textColor="#ff0000"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_toEndOf="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/10"
+        android:id="@+id/textView14"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_above="@+id/textView12"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9" />
 </RelativeLayout>

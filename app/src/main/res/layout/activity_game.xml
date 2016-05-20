@@ -164,9 +164,9 @@
         android:id="@+id/textView9"
         android:textSize="52dp"
         android:textColor="#000"
-        android:layout_alignTop="@+id/textView8"
-        android:layout_toRightOf="@+id/textView8"
-        android:layout_toEndOf="@+id/textView8" />
+        android:layout_above="@+id/button"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -176,8 +176,8 @@
         android:textSize="52dp"
         android:textColor="#000"
         android:layout_above="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -197,7 +197,7 @@
         android:textSize="52dp"
         android:textColor="#000"
         android:layout_alignTop="@+id/textView8"
-        android:layout_toLeftOf="@+id/textView8"
-        android:layout_toStartOf="@+id/textView8" />
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
 
 </RelativeLayout>
